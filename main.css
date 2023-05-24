@@ -16,3 +16,14 @@ body{
     text-align: center;
     justify-content: center;
 }
+
+.content a{
+    background-color: black;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    position:absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
