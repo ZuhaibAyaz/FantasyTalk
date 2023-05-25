@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    
+ }
+
+
+.top-container{
+    width: 100%;
+    height: 100%;
+   
+
+    overflow: hidden;
+    position: relative;
+    background-image: url(image/img7.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+textarea{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    display:block;
+    width: 35%;
+   height: 10vh;
+
+   border-radius: 1rem;
+}
+
+
+button{
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0ch;
+    background-color: #F7E1AE;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'Almendra SC', serif;
+    font-size: larger;
+    border-radius: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+button:hover{
+  
+    margin-top: -5px;
+    color: rgba(255, 255, 255, 1);
+    /* box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+    box-shadow: 0 5px 15px #F7E1AE;
+}
+
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+
+
+h1{
+    font-family: 'Spirax', cursive;
+    font-size: 5vw;
+    line-height: 1rem;
+    letter-spacing: 5px;
+    color: white;
+   
+}
+h2{
+    font-family: 'Almendra SC', serif;
+    font-size: 3vw;
+    line-height: 1rem;
+  letter-spacing: 6px;
+  color: white;
+    
+}
+
+#about{
+    font-family: 'Almendra SC', serif;
+    font-size: 3vw;
+    line-height: 1rem;
+  letter-spacing: 6px;
+  color: black;
+
+}
+p{
+    font-family: 'Almendra SC', serif;
+    font-size: larger;
+}
+footer{
+   
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #F7E1AE;
+    text-align: center;
+}
