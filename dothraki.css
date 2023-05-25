@@ -43,8 +43,11 @@ button{
     background-color: #F7E1AE;
     margin-bottom: 2rem;
     text-align: center;
-    
+    font-family: 'Almendra SC', serif;
+    font-size: larger;
     border-radius: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 #output{
@@ -60,18 +63,19 @@ button{
   background-color: white;
 }
 
-#trans-head{
-    color: white;
-}
+
 
 h1{
     font-family: 'Spirax', cursive;
     font-size: 5vw;
     line-height: 1rem;
+    letter-spacing: 5px;
+   
 }
 h2{
     font-family: 'Almendra SC', serif;
     font-size: 3vw;
     line-height: 1rem;
+  letter-spacing: 6px;
     
 }
