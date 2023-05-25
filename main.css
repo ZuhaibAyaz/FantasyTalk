@@ -15,15 +15,51 @@ body{
     background-size: cover;
     text-align: center;
     justify-content: center;
+    animation: change 13s infinite ease-in-out;
 }
 
-.content a{
-    background-color: black;
-    padding: 10px 24px;
+
+button{
+   
+    transition: 0.5s;
+    padding: 10px 50px;
     text-decoration: none;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
     position:absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+border: 1px;
+    transition: all 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.8);
+    background: #146C94;
+}
+button:hover{
+  
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 1);
+    /* box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+    box-shadow: 0 5px 15px #39B5E0;
+}
+
+@keyframes change{
+
+    0%{
+        background-image: url(image/img6.jpg);
+    }
+    20%{
+        background-image: url(image/img2.jpg);
+    }
+    40%{
+        background-image: url(image/img3.jpg);
+    }
+    60%{
+        background-image: url(image/img4.jpg);
+    }
+    80%{
+        background-image: url(image/img5.jpg);
+    }
+    100%{
+        background-image: url(image/img6.jpg);
+    }
 }
