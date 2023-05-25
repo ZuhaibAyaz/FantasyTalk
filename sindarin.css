@@ -14,7 +14,7 @@ body{
 
     overflow: hidden;
     position: relative;
-    background-image: url(image/img7.jpg);
+    background-image: url(image/img9.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -104,7 +104,8 @@ footer{
    
     bottom: 0;
     width: 100%;
-    padding: 2rem;
+   
+    padding-top: 2rem; padding-bottom: 2rem;
     background-color: #F7E1AE;
     text-align: center;
 }
