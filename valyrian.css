@@ -31,11 +31,12 @@ textarea{
     display:block;
     width: 35%;
    height: 10vh;
-
+   font-family: 'Almendra SC', serif;
+   font-size: 1.5rem;
+   letter-spacing: 2px;
    border-radius: 1rem;
 }
-.main{
-}
+
 button{
     padding: 1rem 2rem 1rem 2rem;
     border: 0ch;
@@ -67,6 +68,9 @@ button:hover{
   margin-right: auto;
   border-radius: 1rem;
   background-color: white;
+  font-family: 'Almendra SC', serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 }
 
 
