@@ -113,3 +113,15 @@ footer{
     background-color: #F7E1AE;
     text-align: center;
 }
+a{
+ float: right;
+padding-right: 1rem;
+padding-top: 1rem;
+ text-decoration: none;
+ font-family: 'Spirax', cursive;
+    font-size: 2vw;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    color: white;
+
+}
